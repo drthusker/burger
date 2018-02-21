@@ -1,28 +1,12 @@
 body{
+	background-color: coral;
   font-family: 'Gill Sans', cursive, serif;
   font-size: 16px;
-   background: url(../assests/img/burger.jpg);
+   background: url(../public/assests/img/burger.jpg);
 }
 
 .card{
   padding: 2px;
 }
-div {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
-}
 
-div::after {
-  content: "";
-  background: url(../assests/img/burger.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
-}
 /*<img id="pacman-title" src="../assests/img/burger.jpg" width="800px" />*/
