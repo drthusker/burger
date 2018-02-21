@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
 var app = express();
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 var db = process.env.DATABASE_URL || 'localhost'
 
